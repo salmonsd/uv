@@ -1387,6 +1387,7 @@ async fn run(mut cli: Cli) -> Result<ExitStatus> {
                 globals.python_downloads,
                 globals.installer_metadata,
                 globals.concurrency,
+                cli.top_level.no_config,
                 cache,
                 printer,
                 globals.preview,
