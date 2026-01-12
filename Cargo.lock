@@ -6452,6 +6452,7 @@ dependencies = [
  "astral-reqwest-retry",
  "astral-tokio-tar",
  "async-compression",
+ "async-trait",
  "base64 0.22.1",
  "fastrand",
  "fs-err",
